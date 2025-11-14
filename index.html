@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>N Streem Movie Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">N Streem</div>
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Movies</a>
+      <a href="#">Series</a>
+      <a href="#">My List</a>
+    </nav>
+  </header>
+
+  <!-- Video Player Section -->
+  <section class="player-section">
+    <div class="video-container">
+      <video id="video" controls preload="metadata" poster="poster.jpg">
+        <source src="Poster&Video/Faster - Official Trailer(720P_HD).mp4" type="video/mp4" />
+        Your browser doesn’t support video playback.
+      </video>
+  </section>
+
+  <!-- Movie Info Section -->
+  <section class="movie-info">
+    <img src="Poster&Video/33db6b86b1c641c8f5c45c8e636b800d.jpg" alt="Movie Poster" class="poster" />
+    <div class="details">
+      <h2>Faster</h2>
+      <p class="meta">| CBFC: A 2010 ‧ Action/Thriller ‧ 1h 34m |</p>
+      <p class="rating">IMDb 6.4/10</p>
+      <p class="overview">
+        After being released from jail, Driver makes a list of those involved in a botched robbery that resulted in his brother's death. He begins hunting them down but is chased by a detective and a hitman.
+      </p>
+      <div class="buttons">
+        <button class="btn">Watchlist +</button>
+        <button class="btn">Share</button>
+        <button class="btn"><a href="https://drive.google.com/file/d/1qzUPZoNOOrnzT8ZCbLujvnwwo9HRpJ97/view?usp=drivesdk">Download</a></button>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
